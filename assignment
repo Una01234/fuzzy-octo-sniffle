@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        header p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        header .contact-info {
+            text-align: center;
+            margin: 10px 0;
+        }
+        header .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .profile-summary, .work-experience, .education, .skills, .projects {
+            margin: 20px 0;
+        }
+        .profile-summary p, .work-experience p, .education p, .skills p, .projects p {
+            line-height: 1.6;
+        }
+        h2 {
+            color: #50b3a2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <p>Full Stack Developer</p>
+            <div class="contact-info">
+                <a href="mailto:john.doe@example.com">john.doe@example.com</a> | 
+                <a href="tel:+1234567890">+1 234 567 890</a> | 
+                <a href="https://linkedin.com/in/johndoe">LinkedIn</a>
+            </div>
+        </header>
+        
+        <section class="profile-summary">
+            <h2>Profile Summary</h2>
+            <p>Highly skilled Full Stack Developer with 5+ years of experience in designing and developing scalable web applications. Adept at coding in various programming languages and experienced in managing both front-end and back-end development processes. Seeking to leverage expertise to join a dynamic team at a forward-thinking company.</p>
+        </section>
+        
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <ol>
+                <li>
+                    <h3>Senior Developer at Tech Solutions</h3>
+                    <p><em>June 2021 - Present</em></p>
+                    <p>Leading a team of developers to build and maintain web applications. Responsible for overseeing the full development lifecycle, from planning to deployment.</p>
+                </li>
+                <li>
+                    <h3>Full Stack Developer at WebWorks</h3>
+                    <p><em>January 2018 - May 2021</em></p>
+                    <p>Developed numerous client projects, focusing on front-end development and server-side logic. Improved performance and user experience across all applications.</p>
+                </li>
+            </ol>
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Dates</th>
+                </tr>
+                <tr>
+                    <td>Bachelor of Science in Computer Science</td>
+                    <td>University of Somewhere</td>
+                    <td>2014 - 2018</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>HTML/CSS</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        
+        <section class="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Project Management Tool</h3>
+                <p>Developed a project management web application using React and Node.js, allowing users to track progress, assign tasks, and manage timelines effectively.</p>
+                <a href="https://github.com/johndoe/project-management-tool" target="_blank">View on GitHub</a>
+            </div>
+            <div>
+                <h3>E-commerce Platform</h3>
+                <p>Built a fully functional e-commerce platform with a custom CMS, shopping cart, and payment gateway integration using Django and React.</p>
+                <a href="https://github.com/johndoe/e-commerce-platform" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
